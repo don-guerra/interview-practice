@@ -13,6 +13,7 @@ Breakdown of Leet code problems solved.
 2. [Remove Duplicate From Sorted Array](./RemoveDupFromSortedArr/RemoveDupFromSortedArr.md)
 3. [Best Time to Buy and Sell Stock II](./BestTimeToBuySellStock_Pt2/BestTimeToBuySellStock_Pt2.md)
 4. [Contains Duplicate](./ContainsDuplicate/ContainsDuplicate.md)
+5. [Single Number](./SingleNumber/SingleNumber.md)
 
 ### Medium Difficulty
 1. [Rotate Array](./RotateArr/RotateArr.md)
