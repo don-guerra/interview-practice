@@ -14,6 +14,7 @@ Breakdown of Leet code problems solved.
 3. [Best Time to Buy and Sell Stock II](./BestTimeToBuySellStock_Pt2/BestTimeToBuySellStock_Pt2.md)
 4. [Contains Duplicate](./ContainsDuplicate/ContainsDuplicate.md)
 5. [Single Number](./SingleNumber/SingleNumber.md)
+6. [Intersection of Two Arrays II](./IntersectionOfTwoArr_Pt2/IntersectionOfTwoArr_Pt2.md)
 
 ### Medium Difficulty
 1. [Rotate Array](./RotateArr/RotateArr.md)
