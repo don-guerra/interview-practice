@@ -18,6 +18,9 @@ Output: [4, 9]
 **Note: Each element in the result should appear as many time as it shows in both arrays**
 **Note: The result can be in any order**
 
+## Follow up
+1. What if the given array is already sorted?
+
 ## Thought on solving the problem
 
 ### First Iteration
@@ -41,4 +44,16 @@ for each element in nums2:
             remove element from element
 
 return output;
+```
+
+### Second Iteration (Follow up question 1)
+If we assume that the the numbers provided are in a sorted order then we can use a two pointer strategy. Where there is one pointer for nums1 and one for nums2. As the numbers are in stored order we store elements in the output array when the numbers accessed by the nums1Ptr and the nums2Ptr are equal.
+```
+nums1[nums1Ptr] == nums2[nums2Ptr] ---> store in output arr
+```
+
+Then we increment the numsXPtr that points to the smaller number.
+```
+nums1[nums1Ptr] < nums2[nums2Ptr] --> increment nums1Ptr by 1
+nums2[nums2Ptr] < nums1[nums1Ptr] --> increment nums2Ptr by 1
 ```
