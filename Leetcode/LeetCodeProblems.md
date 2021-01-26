@@ -17,6 +17,8 @@ Breakdown of Leet code problems solved.
 6. [Intersection of Two Arrays II](./IntersectionOfTwoArr_Pt2/IntersectionOfTwoArr_Pt2.md)
 7. [Move Zeroes](./Easy/MoveZeroes/MoveZeroes.cxx)
 8. [Two Sum](./Easy/TwoSum.cxx)
+9. [Reverse String](./Easy/ReverseString.cxx)
+10. [Reverse Integer](./Easy/ReverseInteger.cxx)
 
 ### Medium Difficulty
 1. [Rotate Array](./RotateArr/RotateArr.md)
