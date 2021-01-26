@@ -15,6 +15,7 @@ Breakdown of Leet code problems solved.
 4. [Contains Duplicate](./ContainsDuplicate/ContainsDuplicate.md)
 5. [Single Number](./SingleNumber/SingleNumber.md)
 6. [Intersection of Two Arrays II](./IntersectionOfTwoArr_Pt2/IntersectionOfTwoArr_Pt2.md)
+7. [Move Zeroes](./Easy/MoveZeroes/MoveZeroes.cxx)
 
 ### Medium Difficulty
 1. [Rotate Array](./RotateArr/RotateArr.md)
