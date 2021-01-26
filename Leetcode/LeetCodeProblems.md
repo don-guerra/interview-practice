@@ -21,3 +21,4 @@ Breakdown of Leet code problems solved.
 ### Medium Difficulty
 1. [Rotate Array](./RotateArr/RotateArr.md)
 2. [Valid Sudoku](./Medium/ValidSudoku.cxx)
+3. [Rotate Image](./Medium/RotateImage.cxx)
