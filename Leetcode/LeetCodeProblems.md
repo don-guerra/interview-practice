@@ -19,6 +19,7 @@ Breakdown of Leet code problems solved.
 8. [Two Sum](./Easy/TwoSum.cxx)
 9. [Reverse String](./Easy/ReverseString.cxx)
 10. [Reverse Integer](./Easy/ReverseInteger.cxx)
+11. [First Unique Character In String](./Easy/FirstUniqueCharInStr.cxx)
 
 ### Medium Difficulty
 1. [Rotate Array](./RotateArr/RotateArr.md)
