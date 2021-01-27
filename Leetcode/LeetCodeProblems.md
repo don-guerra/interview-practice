@@ -21,6 +21,7 @@ Breakdown of Leet code problems solved.
 10. [Reverse Integer](./Easy/ReverseInteger.cxx)
 11. [First Unique Character In String](./Easy/FirstUniqueCharInStr.cxx)
 12. [Valid Anagram](./Easy/ValidAnagram.cxx)
+13. [Valid Palindrom](./Easy/ValidPalindrome.cxx)
 
 ### Medium Difficulty
 1. [Rotate Array](./RotateArr/RotateArr.md)
