@@ -6,21 +6,21 @@ namespace Algorithms.Sorting
     {
         public void sortIncreasing(T[] arr)
         {
-            mergeSort(0, arr.Length - 1, arr, (val) => val <= 0);
+            sort(0, arr.Length - 1, arr, (val) => val <= 0);
         }
 
         public void sortDecreasing(T[] arr)
         {
-            mergeSort(0, arr.Length - 1, arr, (val) => val > 0);
+            sort(0, arr.Length - 1, arr, (val) => val > 0);
         }
 
-        private void mergeSort(int low, int high, T[] arr, Func<int, bool> handleComparison)
+        private void sort(int low, int high, T[] arr, Func<int, bool> handleComparison)
         {
             if (low < high)
             {
                 int mid = (low + high) / 2;
-                this.mergeSort(low, mid, arr, handleComparison);
-                this.mergeSort(mid + 1, high, arr, handleComparison);
+                this.sort(low, mid, arr, handleComparison);
+                this.sort(mid + 1, high, arr, handleComparison);
                 this.merge(low, mid, high, arr, handleComparison);
             }
         }
