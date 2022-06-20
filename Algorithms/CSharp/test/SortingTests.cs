@@ -1,11 +1,11 @@
-namespace Algorithms.Test.Sorting
+namespace Algorithms.Test
 {
     using Algorithms.Sorting;
     using Xunit;
 
-    public class SortTestInstances : TheoryData<ISort<int>>
+    public class SortingTestInstances : TheoryData<ISort<int>>
     {
-        public SortTestInstances()
+        public SortingTestInstances()
         {
             Add(new MergeSort<int>());
             Add(new InsertionSort<int>());
@@ -13,10 +13,10 @@ namespace Algorithms.Test.Sorting
         }
     }
 
-    public class MergeSortTest
+    public class SortingTests
     {
         [Theory]
-        [ClassData(typeof(SortTestInstances))]
+        [ClassData(typeof(SortingTestInstances))]
         public void ShouldHandleAnEmptyArrayWhenDecreasing(ISort<int> instance)
         {
             var exception = Record.Exception(() => instance.sortDecreasing(new int[] { }));
@@ -24,7 +24,7 @@ namespace Algorithms.Test.Sorting
         }
 
         [Theory]
-        [ClassData(typeof(SortTestInstances))]
+        [ClassData(typeof(SortingTestInstances))]
         public void ShouldHandleAnEmptyArrayWhenIncreasing(ISort<int> instance)
         {
             var exception = Record.Exception(() => instance.sortIncreasing(new int[] { }));
@@ -32,7 +32,7 @@ namespace Algorithms.Test.Sorting
         }
 
         [Theory]
-        [ClassData(typeof(SortTestInstances))]
+        [ClassData(typeof(SortingTestInstances))]
         public void ShouldReturnSortedArrayInDecreasingOrder(ISort<int> instance)
         {
             int[] input = new int[] { 100, 9, 46, 2, 5, 3 };
@@ -42,7 +42,7 @@ namespace Algorithms.Test.Sorting
         }
 
         [Theory]
-        [ClassData(typeof(SortTestInstances))]
+        [ClassData(typeof(SortingTestInstances))]
         public void ShouldReturnSortArray_IncreasingOrder(ISort<int> instance)
         {
             int[] input = new int[] { 100, 9, 46, 2, 5, 3 };
