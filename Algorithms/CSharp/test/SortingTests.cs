@@ -10,6 +10,7 @@ namespace Algorithms.Test
             Add(new MergeSort<int>());
             Add(new InsertionSort<int>());
             Add(new BubbleSort<int>());
+            Add(new HeapSort<int>());
         }
     }
 
