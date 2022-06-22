@@ -94,6 +94,7 @@ namespace Algorithms.Sorting
                     T temp = arr[currentIndex];
                     arr[currentIndex] = arr[largestNodeIndex];
                     arr[largestNodeIndex] = temp;
+                    currentIndex = largestNodeIndex;
                 }
             }
         }
